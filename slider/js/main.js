@@ -10,16 +10,6 @@ $(document).ready(function(){
 		prevImg.addClass('active');
 	})
 
-	 // $('.next').on('click', function() {
-	 //    var nextImg = $('img.active').next('.slider-inner img');
-
-	 //    if(nextImg.length == 0) {
-	 //      nextImg = $('.slider-inner img:first');
-	 //    }
-
-	 //    $('img.active').removeClass('active');
-	 //    nextImg.addClass('active');
-  // 	});
 	$('.next').on('click',function() {
 		var nextImg = $('img.active').next('.slider-inner img');
 
